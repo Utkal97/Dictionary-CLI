@@ -1,0 +1,21 @@
+{
+  "name": "dictionary-cli",
+  "version": "0.0.8",
+  "description": "A Command Line Interface for a dictionary. Built with Commander.js",
+  "main": "index.js",
+  "preferGlobal": true,
+  "bin": {
+    "dict": "./commands.js"
+  },
+  "scripts": {},
+  "author": "Utkal97",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "commander": "^4.0.1",
+    "dotenv": "^8.2.0",
+    "https": "^1.0.0",
+    "inquirer": "^7.0.0",
+    "request": "^2.88.0"
+  }
+}
